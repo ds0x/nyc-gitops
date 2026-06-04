@@ -22,7 +22,10 @@ org_settings:
     #   • https://fleetdm.com/docs/configuration/yaml-files#org-info
     ###########################################################
     org_name: ds NYC GitOps
-  
+  webhook_settings:
+   activities_webhook:
+    enable_activities_webhook: true
+    destination_url: https://webhook.site/a74352ca-1e9d-44a1-b86d-56519f32d673    
   server_settings:
     ###########################################################
     # The server URL where Fleet is running.
