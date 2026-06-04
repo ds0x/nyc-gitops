@@ -1,0 +1,6 @@
+- name: Department - Engineering
+  description: "Fleet configuration for the Engineering department."
+  criteria:
+    vital: end_user_idp_department
+    value: Engineering
+    
