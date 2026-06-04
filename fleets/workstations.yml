@@ -65,6 +65,9 @@ controls:
   #     - "x86-based Windows hosts"
   # ```  
   ###########################################################
+  macos_updates:
+    deadline: "2028-04-01"
+    minimum_version: "26.5"
   apple_settings:
     configuration_profiles:
       - paths: ../platforms/macos/declaration-profiles/*.json
